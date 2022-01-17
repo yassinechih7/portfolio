@@ -7,7 +7,7 @@ function Skills() {
         <div className='Skills' >
             <div className="min-title"></div>
             <div className="main-title"></div>
-            <SkillCard icon={} title='' text='' />
+            <SkillCard icon='' title='' text='' />
         </div>
     )
 }

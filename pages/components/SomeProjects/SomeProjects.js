@@ -1,5 +1,5 @@
 import React from "react";
-import projectCard from 'projectCard'
+import projectCard from './projectCard'
 
 function SomeProjects() {
   return (

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { useForm } from "react-hook-form";
 
 function ContactMe() {
@@ -10,13 +10,14 @@ function ContactMe() {
         <h2>Contact Me</h2>
       </div>
       <form action="">
-        <input {...register("firstName")} placeholder="First name" />
-        <input {...register("lastName")} placeholder="Last name" />
-        <select {...register("category")}>
-          <option value="">Select...</option>
-          <option value="A">Category A</option>
-          <option value="B">Category B</option>
-        </select>
+        <input {...register("firstName")} placeholder="Your name" />
+        <input {...register("lastName")} placeholder="Email address" />
+        <input {...register("lastName")} placeholder="Phone number" />
+        <input {...register("lastName")} placeholder="Subject" />
+        
+        <textarea {...register("lastName")} placeholder="Message"  cols="30" rows="10">
+
+        </textarea>
         <p>{result}</p>
         <input type="submit" />
       </form>
