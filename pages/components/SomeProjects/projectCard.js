@@ -6,12 +6,10 @@ function projectCard(props) {
       <div className="cardTitle">{props.title}</div>
 
       <div className="content-wrapper">
-        <div className="project-card-img"></div>
+        <div className="project-card-img">{props.icon}</div>
         <div className="futures-list">
           <ul>
-            {props.fList.map(function (item, i) {
-              return <li key={i}>{item}</li>;
-            })}
+            {props.fList.map((e, i)=> <li key={i}>e</li>)}
           </ul>
         </div>
 

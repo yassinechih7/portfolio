@@ -1,7 +1,17 @@
 import React from "react";
 import SkillCard from './SkillCard'
+import {
+  lock,links,house
+} from "./ImgesImport"
 
 function MainSkillset() {
+
+  const MainSkillsetData = [
+    [house, "Front end development", "Once you’re set up, payouts arrive in your bank account on a 2-day rolling basis. Or you can opt to receive payouts weekly or monthly."],
+    [links, "Back end development", "Disputed payments (also known as chargebacks) incur a $15.00 fee. If the customer’s bank resolves the dispute in your favor, the fee is fully refunded."],
+    [lock, "Ethical Hacking", "Disputed payments (also known as chargebacks) incur a $15.00 fee. If the customer’s bank resolves the dispute in your favor, the fee is fully refunded."]
+  ];
+
   return (
     <div className="MainSkillset">
       <div className="main-title">
@@ -11,9 +21,7 @@ function MainSkillset() {
         Skills that’s i have picked up durring my learning journey
       </div>
 
-    <SkillCard img=""  title="" text=""/>
-    <SkillCard img="" title="" text=""/>
-    <SkillCard img="" title="" text=""/>
+      {MainSkillsetData.map(e => <SkillCard icon={e[0]}  title={e[1]} text={e[2]}/>)}
 
     </div>
   );

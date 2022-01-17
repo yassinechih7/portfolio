@@ -1,13 +1,17 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
+
 
 function SkillCard(props) {
-    return (
-        <div className='SkillCard'>
-            <div className="skill-card-icon">props.icon</div>
-            <div className="skill-card-title">props.title</div>
-            <div className="skill-card-text">props.text</div>
-        </div>
-    )
+  return (
+    <div className="SkillCard">
+      <div className="skill-card-icon">
+        <Image src={props.icon} alt={props.title} />
+      </div>
+      <div className="skill-card-title">{props.title}</div>
+      <div className="skill-card-text">{props.text}</div>
+    </div>
+  );
 }
 
-export default SkillCard
+export default SkillCard;
