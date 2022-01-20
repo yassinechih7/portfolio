@@ -1,28 +1,48 @@
 import React from "react";
+import Image from "next/image";
+import styles from "./ProjectCard.module.css";
+import Button from "../Button/Button";
+import fuIcon from "../../../public/fuIcon.svg";
+import Link from "next/link";
 
 function projectCard(props) {
-  return (
-    <div className="projectCard">
-      <div className="cardTitle">{props.title}</div>
+  const title = props.title;
+  const icon = props.icon;
+  const fList = props.fList;
+  const description = props.description;
+  const demo = props.demo;
+  const source = props.source;
 
-      <div className="content-wrapper">
-        <div className="project-card-img">{props.icon}</div>
-        <div className="futures-list">
+  return (
+    <div className={styles.projectCard}>
+      <div className={styles.cardTitle}>{title}</div>
+
+      <div className={styles.contentWrapper}>
+        <div className={styles.projectCardImg}>
+          <Image src={icon} alt="fb" width={264} height={150} />
+        </div>
+        <div className={styles.futuresList}>
           <ul>
-            {props.fList.map((e, i)=> <li key={i}>e</li>)}
+            {fList.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
           </ul>
         </div>
 
-        <div className="card-description">{props.description}</div>
+        <div className={styles.cardDescription}>{description}</div>
 
-        <div className="buttonWrapper">
-            <div className="demo-button">
-            <button><a href={props.demo}></a></button>
-            </div>
+        <div className={styles.buttonWrapper}>
+          <div className={styles.demoButton}>
+            <Link href={demo}>
+              <Button text="Live demo" />
+            </Link>
+          </div>
 
-            <div className="source-button">
-            <button><a href={props.source}></a></button>
-            </div>
+          <div className={styles.sourceButton}>
+            <Link href={source}>
+              <Button text="Source code" />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.SkillCard{
+    display: flex;
+    width: 360px;
+height: 234px;
+}
+.SkillCardContentWrapper{
+
+}
+.cardImage{
+    width: 240px;
+    height: 24px;
+}
+
+.cardTitle{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.cardText{
+    font-size: 14px;
+line-height: 180%;
+ 
+color: rgba(255, 255, 255, 0.56);
+}

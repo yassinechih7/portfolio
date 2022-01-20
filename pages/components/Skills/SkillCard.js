@@ -1,15 +1,17 @@
 import React from "react";
 import Image from "next/image";
-
+import styles from './SkillCard.module.css';
 
 function SkillCard(props) {
   return (
-    <div className="SkillCard">
-      <div className="skill-card-icon">
+    <div className={styles.SkillCard}>
+      <div className={styles.CardContentWrapper}>
+      <div className={styles.skillCardIcon}>
         <Image src={props.icon} alt={props.title} />
       </div>
-      <div className="skill-card-title">{props.title}</div>
-      <div className="skill-card-text">{props.text}</div>
+      <div className={styles.skillCardTitle}>{props.title}</div>
+      <div className={styles.skillCardText}>{props.text}</div>
+    </div>
     </div>
   );
 }

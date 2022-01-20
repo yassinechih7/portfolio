@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+.ContactMe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.contactMeTitle {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  
+  color: #ffffff;
+}
+
+.firstName input{
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: none;
+}
+.emailaddr input{
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: none;
+}
+.phonenumber input{
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: none;
+}
+.subject input{
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: none;
+}
+.message textarea{
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  resize: none;
+  border-radius: 8px;
+  background: none;
+}

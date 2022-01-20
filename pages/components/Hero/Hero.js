@@ -1,12 +1,13 @@
 import React from "react";
+import styles from './Hero.module.css'
 
 function Hero() {
   return (
-    <div className="NavBar">
-      <div className="main-title">
-        <h1>Hi I’m Yassine, Full Stack Developer</h1>
+    <div className={styles.Hero}>
+      <div className={styles.mainTitle}>
+        <h1>Hi I’m Yassine, <br /> Full Stack Developer</h1>
       </div>
-      <div className="sub-title">
+      <div className={styles.subTitle}>
         Self-taught full stack developer that obsessed computers electronics
         hacking and everything that requires mental effort.
       </div>

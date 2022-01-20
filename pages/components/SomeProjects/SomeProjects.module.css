@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.SomeProjects{
+
+}
+
+.firstSection{
+    display: flex;
+    align-items: center;
+
+}
+
+.projectsDescription{
+    width: 648px;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.56);
+}
+
+.mainTitle{
+
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 140%;
+
+
+color: #FFFFFF;
+
+
+}
+
+.secondeTitle{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 140%;
+color: #6068DB;
+}

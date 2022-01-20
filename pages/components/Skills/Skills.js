@@ -2,6 +2,7 @@ import React from "react";
 import SkillCard from "./SkillCard";
 import Image from "next/image";
 
+import styles from './Skills.module.css';
 import { penwb, loopwb, lockwb, truckwb } from "./ImgesImport";
 
 function Skills() {
@@ -48,17 +49,19 @@ function Skills() {
     ],
   ];
   return (
-    <div className="Skills">
-      <div className="min-title"></div>
-      <div className="main-title"></div>
+    <div className={styles.Skills}>
+      <div className={styles.minTitle}>My Skills</div>
+      <div className={styles.mainTitle}>Creativity is nothing but the way to solve new problems.</div>
+      <div className={styles.SkillsCards}>
 
-      {SkillsData.map((e) => (
-        <SkillCard icon={e[0]} title={e[1]} text={e[2]} />
+      {SkillsData.map((e, eIndex) => (
+        <SkillCard key={eIndex} icon={e[0]} title={e[1]} text={e[2]} />
       ))}
+
+      </div>
     </div>
   );
 }
 
-console.log(process.env.PUBLIC_URL);
 
 export default Skills;
