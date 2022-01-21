@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import styles from "./ContactMe.module.css";
+import Button from '../Button/Button';
 
 function ContactMe() {
   const { register, handleSubmit } = useForm();
@@ -59,7 +60,7 @@ function ContactMe() {
         </div>
         <p>{result}</p>
         
-        <input type="submit" />
+        <Button  type="submit" text="Submit"/>
       </form>
     </div>
   );

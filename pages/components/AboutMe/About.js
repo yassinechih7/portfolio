@@ -35,7 +35,7 @@ function About() {
 
       </div>
 
-      <div className={styles.contactMe}>
+      <div className={styles.contactMeBtn}>
           <Button text={"ContactMe"}/>
       </div>
     </div>

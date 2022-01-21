@@ -25,5 +25,8 @@
     height: 112px;
     margin-top: 20px;
     margin-left: 20px;
-    margin-bottom: 20px;
+}
+
+.HeroBtn{
+  margin-left: 20px;
 }

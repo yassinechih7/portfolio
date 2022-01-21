@@ -3,38 +3,54 @@
 .About {
   font-family: Poppins;
   font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .miniTtitle {
+  margin-left: 156px;
+  text-align: left;
+  width: 100%;
   font-weight: 600;
   font-size: 14px;
   color: #6068db;
   text-transform: uppercase;
 }
 .bigTitle {
+  margin-left: 156px;
+  text-align: left;
+  width: 100%;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 44px;
   line-height: 140%;
-
 }
 
-
-.aboutMeText{
+.aboutMeText {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   display: flex;
+  width: 552p;
 }
-.p1{
+.p1 {
+  width: 500px;
+  text-align: left;
   color: rgba(255, 255, 255, 0.72);
   font-size: 18px;
-line-height: 180%;
+  line-height: 180%;
+}
+.p2 {
+  width: 500px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 18px;
+  line-height: 180%;
+}
 
-}
-.p2{
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 18px;
-line-height: 180%;
+.contactMeBtn {
+  width: 100%;
+  margin-left: 156px;
 }

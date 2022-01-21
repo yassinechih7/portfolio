@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './Hero.module.css'
+import Button from '../Button/Button';
 
 function Hero() {
   return (
@@ -11,6 +12,10 @@ function Hero() {
         Self-taught full stack developer that obsessed computers electronics
         hacking and everything that requires mental effort.
       </div>
+      <div className={styles.HeroBtn}>
+      <Button text="About me"/>
+      </div>
+      
     </div>
   );
 }
