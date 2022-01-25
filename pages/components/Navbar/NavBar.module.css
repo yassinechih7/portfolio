@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+
+
 .NavBar{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.navBarWrapper{
+    font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 
 .Logo{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    font-size: 1.2em;
+    line-height: 24px;
     color: rgba(96, 104, 219, 0.72);
 }
 
@@ -27,14 +37,25 @@
 .mainList ul{
     display: flex;
     list-style: none;
-    color: rgba(255, 255, 255, 0.72);
+    align-items: center;
 }
+
 .mainList li{
     margin-left: 20px;
+}
+.mainList li a{
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.72);
 }
 .secList{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    font-size: 14px;
+
+    color: #FFFFFF;
 }
 .secList ul{
     display: flex;

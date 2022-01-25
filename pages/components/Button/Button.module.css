@@ -9,7 +9,9 @@
     background: #6068DB;
     color: #FFFFFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
+    font-size: 13px;
     border-radius: 6px;
+    cursor: pointer;
 }

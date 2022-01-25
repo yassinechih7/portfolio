@@ -1,32 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
 .Hero {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
-  
 }
-
+.heroWrapper{
+  padding: 6vw;
+}
 .mainTitle{
     font-weight: bold;
-    font-size: 20px;
-    width: 500px;
-    height: 112px;
-    margin-top: 20px;
-    margin-left: 20px;
+    font-size: 1.1em;
+    width: 100vw;
     margin-bottom: 20px;
     color: #FFFFFF;
 
 }
 
 .subTitle{
-    font-size: 18px;
+    font-size: 1.2em;
     color: rgba(255, 255, 255, 0.56);
-    width: 456px;
+    width: 60vh;
     height: 112px;
-    margin-top: 20px;
-    margin-left: 20px;
 }
 
 .HeroBtn{
-  margin-left: 20px;
 }

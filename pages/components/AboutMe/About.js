@@ -5,6 +5,7 @@ import styles from './About.module.css';
 function About() {
   return (
     <div className={styles.About}>
+    <div className={styles.AboutWrapper}>
       <div className={styles.miniTtitle}>about me</div>
       <div className={styles.bigTitle}>What makes me different</div>
 
@@ -33,11 +34,13 @@ function About() {
           works on.</p>
         </div>
 
+
       </div>
 
       <div className={styles.contactMeBtn}>
           <Button text={"ContactMe"}/>
       </div>
+    </div>
     </div>
   );
 }

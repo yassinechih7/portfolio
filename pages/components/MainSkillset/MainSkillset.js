@@ -24,6 +24,7 @@ function MainSkillset() {
 
   return (
     <div className={styles.MainSkillset}>
+    <div className={styles.mainSkillsetWrapper}>
       <div className={styles.mainTitle}>
         <h2>Main Skillset</h2>
       </div>
@@ -36,6 +37,7 @@ function MainSkillset() {
         <SkillCard key={eIndex} icon={e[0]} title={e[1]} text={e[2]} />
       ))}
       </div>
+    </div>
     </div>
   );
 }

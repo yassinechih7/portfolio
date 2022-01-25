@@ -7,7 +7,7 @@
 }
 
 .contactMeTitle {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -22,7 +22,7 @@
   flex-direction: column;
 }
 .firstName label {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -35,7 +35,7 @@
 
   width: 360px;
   height: 47px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -55,7 +55,7 @@
 
   width: 360px;
   height: 47px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -67,7 +67,7 @@
   background: none;
 }
 .emailaddr label {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -83,7 +83,7 @@
 
   width: 360px;
   height: 47px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -95,7 +95,7 @@
   background: none;
 }
 .phonenumber label {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -111,7 +111,7 @@
 
   width: 360px;
   height: 47px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -123,7 +123,7 @@
   background: none;
 }
 .subject label {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -139,7 +139,7 @@
 
   width: 744px;
   height: 153px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -152,7 +152,7 @@
   background: none;
 }
 .message label {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
