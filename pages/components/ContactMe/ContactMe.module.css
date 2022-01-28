@@ -1,16 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 .ContactMe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contactMeWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 85vw;
 }
+
+
 
 .contactMeTitle {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.4rem;
   line-height: 140%;
   text-align: center;
 
@@ -25,7 +35,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 0.76rem;
   line-height: 180%;
   color: #ffffff;
 }
@@ -33,12 +43,12 @@
 .firstName input {
   padding: 6px 16px 5px;
 
-  width: 360px;
-  height: 47px;
+  width: 21vw;
+  height: 6vh;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.85rem;
   line-height: 180%;
 
   color: rgba(255, 255, 255, 0.4);
@@ -53,12 +63,12 @@
 .emailaddr input {
   padding: 6px 16px 5px;
 
-  width: 360px;
-  height: 47px;
+  width: 21vw;
+  height: 6vh;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.85rem;
   line-height: 180%;
 
   color: rgba(255, 255, 255, 0.4);
@@ -70,7 +80,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 0.76rem;
   line-height: 180%;
   color: #ffffff;
 }
@@ -81,12 +91,12 @@
 .phonenumber input {
   padding: 6px 16px 5px;
 
-  width: 360px;
-  height: 47px;
+  width: 21vw;
+  height: 6vh;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.85rem;
   line-height: 180%;
 
   color: rgba(255, 255, 255, 0.4);
@@ -98,7 +108,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 0.76rem;
   line-height: 180%;
   color: #ffffff;
 }
@@ -109,12 +119,12 @@
 .subject input {
   padding: 6px 16px 5px;
 
-  width: 360px;
-  height: 47px;
+  width: 21vw;
+  height: 6vh;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.85rem;
   line-height: 180%;
 
   color: rgba(255, 255, 255, 0.4);
@@ -126,7 +136,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 0.76rem;
   line-height: 180%;
   color: #ffffff;
 }
@@ -137,12 +147,12 @@
 .message textarea {
   padding: 6px 16px 5px;
 
-  width: 744px;
-  height: 153px;
+  width: 50vw;
+  height: 30vh;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.85rem;
   line-height: 180%;
 
   color: rgba(255, 255, 255, 0.4);
@@ -155,16 +165,17 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 0.76rem;
   line-height: 180%;
   color: #ffffff;
 }
 
 .ContactMeForm{
-  width: 755px;
   display: flex;
   flex-wrap: wrap;
+  width: 63%;
 }
-.ContactMeForm >*{
-  flex: 1 1 50%;
+.ContactMeForm > .contactMeSubmitButton{
+  flex-grow: 3;
+  
 }

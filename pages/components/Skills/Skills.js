@@ -50,6 +50,8 @@ function Skills() {
   ];
   return (
     <div className={styles.Skills}>
+    <div className={styles.skillsWrapper}> 
+
       <div className={styles.minTitle}>My Skills</div>
       <div className={styles.mainTitle}>Creativity is nothing but the way to solve new problems.</div>
       <div className={styles.SkillsCards}>
@@ -58,7 +60,8 @@ function Skills() {
         <SkillCard key={eIndex} icon={e[0]} title={e[1]} text={e[2]} />
       ))}
 
-      </div>
+    </div>
+    </div>
     </div>
   );
 }

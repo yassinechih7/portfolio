@@ -33,6 +33,7 @@ function SomeProjects() {
   ];
   return (
     <div className={styles.SomeProjects}>
+    <div className={styles.someProjectsWrapper}>
       <div className={styles.firstSection}>
         <div className={styles.TitlesWrapper}>
           <div className={styles.mainTitle}>Some of my projects</div>
@@ -56,6 +57,7 @@ function SomeProjects() {
             source={e[5]}
           />
         ))}
+      </div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@
 
 
 .NavBar{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -11,16 +11,17 @@
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 85vw;
 }
 
 
 .Logo{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 1.2em;
-    line-height: 24px;
+    font-size: 0.7rem;
     color: rgba(96, 104, 219, 0.72);
+    padding: 1em;
 }
 
 .navigationList{
@@ -29,11 +30,6 @@
     display: flex;
     align-items: center;
 }
-
-.mainList{
-
-}
-
 .mainList ul{
     display: flex;
     list-style: none;
@@ -41,13 +37,13 @@
 }
 
 .mainList li{
-    margin-left: 20px;
+    padding: 1em;
 }
 .mainList li a{
     font-weight: 500;
     text-decoration: none;
-    line-height: 24px;
-    font-size: 1em;
+
+    font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.72);
 }
 .secList{
@@ -64,5 +60,6 @@
 }
 
 .secList li{
-    margin-left: 22px;
+    font-size: 0.8rem;
+    padding: 1em;
 }

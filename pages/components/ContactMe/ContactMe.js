@@ -8,6 +8,8 @@ function ContactMe() {
   const [result, setResult] = useState("");
   return (
     <div className={styles.ContactMe}>
+    <div className={styles.contactMeWrapper}>
+
       <div className={styles.contactMeTitle}>
         <h2>Contact Me</h2>
       </div>
@@ -59,9 +61,11 @@ function ContactMe() {
         ></textarea>
         </div>
         <p>{result}</p>
-        
+        <div className="contactMeSubmitButton">
         <Button  type="submit" text="Submit"/>
+        </div>
       </form>
+    </div>
     </div>
   );
 }
