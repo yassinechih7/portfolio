@@ -17,7 +17,7 @@
   text-align: left;
   width: 100%;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.86rem;
   color: #6068db;
   text-transform: uppercase;
 }
@@ -29,7 +29,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 44px;
+  font-size: 2rem;
   line-height: 140%;
 }
 
@@ -42,17 +42,17 @@
   width: 100%;
 }
 .p1 {
-  width: 500px;
+  width: 40vw;
   text-align: left;
   color: rgba(255, 255, 255, 0.72);
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 180%;
 }
 .p2 {
-  width: 500px;
+  width: 40vw;
   text-align: left;
   color: rgba(255, 255, 255, 0.72);
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 180%;
 }
 

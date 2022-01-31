@@ -25,7 +25,7 @@
 
 .skillCardTitle {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 0.86rem;
   line-height: 140%;
   color: #FFFFFF;
 }
@@ -34,7 +34,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.86rem;
   line-height: 180%;
   width: 15vw;
   color: rgba(255, 255, 255, 0.56);

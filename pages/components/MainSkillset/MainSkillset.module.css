@@ -24,12 +24,17 @@
 .mainTitle {
   color: #ffffff;
   font-weight: bold;
-  font-size: 32px;
-  line-height: 140%;
+  font-size: 2rem;
+  line-height: 180%;
+
+}
+.mainTitle h2 {
+  margin: 0;
+
 }
 .subTitle {
   color: rgba(255, 255, 255, 0.56);
   font-weight: 600;
-  font-size: 14px;
-  line-height: 180%;
+  font-size: 0.95rem;
+  line-height: 190%;
 }
