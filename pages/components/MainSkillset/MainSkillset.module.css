@@ -13,12 +13,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50vw;
+  width: 85vw;
 
 }
 
 .MainSkillsetCards {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .mainTitle {
