@@ -9,19 +9,19 @@
 
 }
 .cardImage{
-    width: 240px;
+    width: 12vw;
     height: 24px;
 }
 
 .cardTitle{
     color: #FFF;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 140%;
 }
 
 .cardText{
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 180%;
  
 color: rgba(255, 255, 255, 0.56);
