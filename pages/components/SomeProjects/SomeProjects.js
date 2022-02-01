@@ -4,35 +4,39 @@ import project from "../../../public/1.jpg";
 
 import styles from "./SomeProjects.module.css";
 
+
+
+const SomeProjectsData = [
+  [
+    "Strapi ecommerce site",
+    project,
+    ["ReactJs", "ExpressJs", "MongoDB "],
+    "To upgrade Dlex, you\u2019ll need to upgrade your entire Workspace, which means all members in your Workspace. The top level of organization is Workspace.",
+    "https://www.figma.com/",
+    "https://www.figma.com/",
+  ],
+  [
+    "Strapi ecommerce site",
+    project,
+    ["ReactJs", "ExpressJs", "MongoDB "],
+    "To upgrade Dlex, you\u2019ll need to upgrade your entire Workspace, which means all members in your Workspace. The top level of organization is Workspace.",
+    "https://www.figma.com/",
+    "https://www.figma.com/",
+  ],
+  [
+    "Strapi ecommerce site",
+    project,
+    ["ReactJs", "ExpressJs", "MongoDB "],
+    "To upgrade Dlex, you\u2019ll need to upgrade your entire Workspace, which means all members in your Workspace. The top level of organization is Workspace.",
+    "https://www.figma.com/",
+    "https://www.figma.com/",
+  ],
+];
+
 function SomeProjects() {
-  const SomeProjectsData = [
-    [
-      "Strapi ecommerce site",
-      project,
-      ["ReactJs", "ExpressJs", "MongoDB "],
-      "To upgrade Dlex, you\u2019ll need to upgrade your entire Workspace, which means all members in your Workspace. The top level of organization is Workspace.",
-      "https://www.figma.com/",
-      "https://www.figma.com/",
-    ],
-    [
-      "Strapi ecommerce site",
-      project,
-      ["ReactJs", "ExpressJs", "MongoDB "],
-      "To upgrade Dlex, you\u2019ll need to upgrade your entire Workspace, which means all members in your Workspace. The top level of organization is Workspace.",
-      "https://www.figma.com/",
-      "https://www.figma.com/",
-    ],
-    [
-      "Strapi ecommerce site",
-      project,
-      ["ReactJs", "ExpressJs", "MongoDB "],
-      "To upgrade Dlex, you\u2019ll need to upgrade your entire Workspace, which means all members in your Workspace. The top level of organization is Workspace.",
-      "https://www.figma.com/",
-      "https://www.figma.com/",
-    ],
-  ];
+  
   return (
-    <div className={styles.SomeProjects}>
+  <div className={styles.SomeProjects}>
     <div className={styles.someProjectsWrapper}>
       <div className={styles.firstSection}>
         <div className={styles.TitlesWrapper}>
@@ -59,6 +63,7 @@ function SomeProjects() {
         ))}
       </div>
       </div>
+
     </div>
   );
 }

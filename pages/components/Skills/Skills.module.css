@@ -27,15 +27,15 @@
   color: #6068db;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 14px;
-  line-height: 170%;
+  font-size: 0.9rem;
+  line-height: 1em;
 }
 
 .mainTitle {
   width: 100%;
   text-align: left;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 140%;
   color: #ffffff;
 }

@@ -2,25 +2,27 @@
 
 .SkillCard{
     display: flex;
-    width: 360px;
-height: 234px;
+    width: 27vw;
+    height: 30vh;
 }
 .SkillCardContentWrapper{
+    
 
 }
 .cardImage{
-    width: 240px;
-    height: 24px;
+    width: 13vw;
+    height: 30vh;
 }
 
 .cardTitle{
+    color: #FFF;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 0.95rem;
     line-height: 140%;
 }
 
 .cardText{
-    font-size: 14px;
+    font-size: 0.8rem;
 line-height: 180%;
  
 color: rgba(255, 255, 255, 0.56);

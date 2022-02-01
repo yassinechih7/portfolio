@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-.SomeProjectsCards {
+
+.SomeProjects {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 5vh 0;
 }
 .someProjectsWrapper {
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 85vw;
 }
 
 .firstSection {
@@ -19,21 +22,25 @@
 }
 
 .projectsDescription {
-  width: 648px;
+  width: auto;
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 0.9rem;
   line-height: 180%;
   color: rgba(255, 255, 255, 0.56);
+}
+
+.SomeProjectsCards{
+
 }
 
 .mainTitle {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2rem;
   line-height: 140%;
-
+  width: 30vw;
   color: #ffffff;
 }
 
@@ -41,7 +48,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 0.9rem;
   line-height: 140%;
   color: #6068db;
 }

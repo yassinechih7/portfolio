@@ -12,19 +12,20 @@
   
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  width: 100%;
 }
 
 /* Sections
-   ========================================================================== */
+========================================================================== */
 
 /**
- * Remove the margin in all browsers.
- */
+* Remove the margin in all browsers.
+*/
 
 body {
   margin: 0;
   background: #121127;
-  width: 100%;
+  width: 100vw;
 }
 
 /**
