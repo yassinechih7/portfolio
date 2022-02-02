@@ -18,11 +18,11 @@
   text-align: left;
   width: 100%;
   font-weight: 600;
-<<<<<<< HEAD
+ 
   font-size: 0.9rem;
-=======
+  
   font-size: 0.86rem;
->>>>>>> e3a623644fc893fac54ad79ef7ad96b6356c8001
+  
   color: #6068db;
   text-transform: uppercase;
 }
@@ -50,22 +50,22 @@
   width: 40vw;
   text-align: left;
   color: rgba(255, 255, 255, 0.72);
-<<<<<<< HEAD
+ 
   font-size: 0.95rem;
-=======
+  
   font-size: 1rem;
->>>>>>> e3a623644fc893fac54ad79ef7ad96b6356c8001
+  
   line-height: 180%;
 }
 .p2 {
   width: 40vw;
   text-align: left;
   color: rgba(255, 255, 255, 0.72);
-<<<<<<< HEAD
+ 
   font-size: 0.95rem;
-=======
+  
   font-size: 1rem;
->>>>>>> e3a623644fc893fac54ad79ef7ad96b6356c8001
+  
   line-height: 180%;
 }
 

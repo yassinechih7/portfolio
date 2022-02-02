@@ -2,46 +2,46 @@
 
 .SkillCard{
     display: flex;
-<<<<<<< HEAD
+ 
     width: 27vw;
     height: 30vh;
-=======
+  
     width: 30vw;
     height: 12vw;
->>>>>>> e3a623644fc893fac54ad79ef7ad96b6356c8001
+  
 }
 .SkillCardContentWrapper{
     
 
 }
 .cardImage{
-<<<<<<< HEAD
+ 
     width: 13vw;
     height: 30vh;
-=======
+  
     width: 12vw;
     height: 24px;
->>>>>>> e3a623644fc893fac54ad79ef7ad96b6356c8001
+  
 }
 
 .cardTitle{
     color: #FFF;
     font-weight: bold;
-<<<<<<< HEAD
+ 
     font-size: 0.95rem;
-=======
+  
     font-size: 0.9rem;
->>>>>>> e3a623644fc893fac54ad79ef7ad96b6356c8001
+  
     line-height: 140%;
 }
 
 .cardText{
     font-size: 0.8rem;
-<<<<<<< HEAD
+ 
 line-height: 180%;
-=======
+  
     line-height: 180%;
->>>>>>> e3a623644fc893fac54ad79ef7ad96b6356c8001
+  
  
 color: rgba(255, 255, 255, 0.56);
 }
