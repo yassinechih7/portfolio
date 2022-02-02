@@ -12,6 +12,7 @@
 .mainSkillsetWrapper{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 85vw;
 
@@ -20,13 +21,25 @@
 
 .MainSkillsetCards {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainTitle {
   color: #ffffff;
   font-weight: bold;
+<<<<<<< HEAD
   font-size: 1.1rem;
   line-height: 140%;
+=======
+  font-size: 1rem;
+  line-height: 180%;
+
+}
+.mainTitle h2 {
+  margin: 0;
+
+>>>>>>> e3a623644fc893fac54ad79ef7ad96b6356c8001
 }
 
 .mainTitle h2{
@@ -37,7 +50,12 @@
 .subTitle {
   color: rgba(255, 255, 255, 0.56);
   font-weight: 600;
+<<<<<<< HEAD
   font-size: 0.9rem;
   
   margin: 4vh 0;
+=======
+  font-size: 0.80rem;
+  line-height: 190%;
+>>>>>>> e3a623644fc893fac54ad79ef7ad96b6356c8001
 }

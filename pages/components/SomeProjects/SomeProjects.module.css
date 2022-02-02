@@ -8,6 +8,14 @@
     align-items: center;
     margin: 5vh 0;
 }
+
+.SomeProjects{
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 .someProjectsWrapper {
 
     display: flex;
@@ -25,9 +33,14 @@
   width: auto;
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
+<<<<<<< HEAD
   font-size: 0.9rem;
+=======
+  font-size: 1rem;
+>>>>>>> e3a623644fc893fac54ad79ef7ad96b6356c8001
   line-height: 180%;
   color: rgba(255, 255, 255, 0.56);
+
 }
 
 .SomeProjectsCards{
@@ -48,7 +61,11 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
+<<<<<<< HEAD
   font-size: 0.9rem;
+=======
+  font-size: 0.99rem;
+>>>>>>> e3a623644fc893fac54ad79ef7ad96b6356c8001
   line-height: 140%;
   color: #6068db;
 }
