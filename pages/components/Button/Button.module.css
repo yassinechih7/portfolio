@@ -16,7 +16,7 @@
   cursor: pointer;
 }
 
-.Button button {
+.Button .active button {
   padding: 0;
   margin: 0;
   width: 133px;
@@ -45,6 +45,6 @@
 
 
 .Button .disabled button {
-    background: #6068DB;
+    background: #000;
     opacity: 0.5;
 }

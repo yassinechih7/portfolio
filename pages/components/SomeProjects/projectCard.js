@@ -24,7 +24,7 @@ function projectCard(props) {
         <div className={styles.futuresList}>
           <ul>
             {fList.map((item, index) => (
-              <li key={index}>{item}</li>
+              <li key={index}><img src="/fuIcon.svg" alt="" />{item}</li>
             ))}
           </ul>
         </div>

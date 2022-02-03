@@ -9,7 +9,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 140%;
   color: #ffffff;
   line-height: 180%;
@@ -20,27 +20,28 @@
 }
 .projectCardImg {
   overflow: hidden;
+  cursor: pointer;
   border-radius: 12px;
 }
 
 .futuresList ul {
+  padding: 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
- 
-  font-size: 0.9rem;
-  
-  font-size: 0.95rem;
-  
+  font-size: 0.85rem;
   line-height: 180%;
+  list-style: none;
   color: #ffffff;
-  list-style-image: url("/fuIcon.svg");
-  list-style-position: outside;
-}
-.projectCardImg{
-  cursor: pointer;
 }
 
+.futuresList ul li{
+  display: flex;
+}
+
+.futuresList ul li img{
+  margin-right: 0.5em;
+}
 
 .cardDescription {
   font-family: 'Poppins', sans-serif;
@@ -55,4 +56,8 @@
 
 
   color: rgba(255, 255, 255, 0.56);
+}
+
+.buttonWrapper div:first-child {
+  margin-bottom: 0.7em;
 }

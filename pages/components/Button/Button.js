@@ -7,13 +7,13 @@ function Button(props) {
   const [buttonMode, setButtonMode] = useState("active");
 
   const handleToggle = () => {
-    buttonState ? toggleButton(0): toggleButton(1)  
-    buttonMode == "active" ? setButtonMode("disabled"): setButtonMode("active")  
+    buttonState? toggleButton(0): toggleButton(1)  
+    buttonMode == "active"? setButtonMode("disabled"): setButtonMode("active")  
   }
 
 
   return (
-  <div className={styles.Button +" "+ styles.buttonMode}>
+  <div className={(styles.Button).concat(' ', styles.buttonMode)}>
       <button
 
       name={props.name}
