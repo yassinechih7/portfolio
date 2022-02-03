@@ -53,7 +53,7 @@ function Skills() {
     <div className={styles.skillsWrapper}> 
 
       <div className={styles.minTitle}>My Skills</div>
-      <div className={styles.mainTitle}>Creativity is nothing but the way to solve new problems.</div>
+      <div className={styles.mainTitle}>Creativity is nothing but the way to<br />solve new problems.</div>
       <div className={styles.SkillsCards}>
 
       {SkillsData.map((e, eIndex) => (
