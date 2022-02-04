@@ -44,7 +44,7 @@
 
 
 
-.Button .disabled button {
+.Button button .disabled {
     background: #000;
     opacity: 0.5;
 }

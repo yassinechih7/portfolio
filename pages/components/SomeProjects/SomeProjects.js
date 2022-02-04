@@ -64,9 +64,8 @@ function SomeProjects() {
                 source={e[5]}
               />
             ) : (
-              <>
+              <div key={eIndex}>
                 <ProjectCard
-                  key={eIndex}
                   title={e[0]}
                   icon={e[1]}
                   fList={e[2]}
@@ -75,7 +74,7 @@ function SomeProjects() {
                   source={e[5]}
                 />
                 <hr className={styles.splitLine}/>
-              </>
+              </div>
             )
           )}
         </div>

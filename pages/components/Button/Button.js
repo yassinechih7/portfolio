@@ -5,22 +5,32 @@ function Button(props) {
 
   const [buttonState, toggleButton] = useState(1);
   const [buttonMode, setButtonMode] = useState("active");
-
-  const handleToggle = () => {
-    buttonState? toggleButton(0): toggleButton(1)  
-    buttonMode == "active"? setButtonMode("disabled"): setButtonMode("active")  
-  }
-
+  let className = styles.Button;
 
   return (
-  <div className={(styles.Button).concat(' ', styles.buttonMode)}>
+  <div className={className} >
       <button
 
       name={props.name}
       type={props.type}
       onClick={() => {
         props.OnClick
-        handleToggle()
+        if (typeof props.OnClick !== "undefined") { 
+          props.OnClick()
+        }
+        if (typeof props.onChange !== "undefined") { 
+          props.onChange()
+        }
+
+        buttonState? toggleButton(0): toggleButton(1)  
+        if (buttonMode == "active") {
+          setButtonMode("disabled");
+          className = styles.disabled
+          console.log(className);
+        } else {
+          setButtonMode("active");
+        }
+
       }}
       >
       {props.text}
