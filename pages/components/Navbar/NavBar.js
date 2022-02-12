@@ -3,11 +3,10 @@ import Button from "../Button/Button";
 import Link from "next/link";
 import styles from "./NavBar.module.css";
 
-
 function NavBar() {
   return (
     <div className={styles.NavBar}>
-        <div className={styles.navBarWrapper}>
+      <div className={styles.navBarWrapper}>
         <div className={styles.Logo}>
           <h1>Yassine Chih</h1>
         </div>
