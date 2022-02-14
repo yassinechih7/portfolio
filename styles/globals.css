@@ -4,6 +4,12 @@ Costum css
 ====================================================================================== */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
+.container {
+  padding: 0 2rem;
+}
+
+
+
 /* set bg color */
 html {
   background-color: #121127;

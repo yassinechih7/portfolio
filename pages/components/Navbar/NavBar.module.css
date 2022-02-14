@@ -11,6 +11,8 @@
   font-size: 0.7rem;
   color: rgba(96, 104, 219, 0.72);
   padding: 1em;
+  margin: 0;
+  white-space: nowrap;
 }
 
 .navigationList {

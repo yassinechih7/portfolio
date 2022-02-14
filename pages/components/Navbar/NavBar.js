@@ -6,7 +6,6 @@ import styles from "./NavBar.module.css";
 function NavBar() {
   return (
     <div className={styles.NavBar}>
-
       <div className={styles.Logo}>
           <h1>Yassine Chih</h1>
         </div>

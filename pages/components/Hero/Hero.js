@@ -5,7 +5,6 @@ import Button from '../Button/Button';
 function Hero() {
   return (
     <div className={styles.Hero}>
-    <div className={styles.heroWrapper}>
       
       <div className={styles.mainTitle}>
         <h1>Hi I’m Yassine, <br /> Full Stack Developer</h1>
@@ -18,7 +17,6 @@ function Hero() {
       <Button text="About me"/>
       </div>
       
-    </div>
     </div>
   );
 }

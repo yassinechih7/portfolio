@@ -2,13 +2,10 @@
   width: 100%;
 
   font-style: normal;
-  display: flex;
-  justify-content: center;
+
   margin: 9vh 0;
 }
-.heroWrapper {
-  width: 85vw;
-}
+
 .mainTitle {
   font-weight: bold;
   font-size: 1.1em;
