@@ -2,18 +2,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background: #000;
-}
-.navBarWrapper {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
-}
-/* .navBarWrapper {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 40%;
 }
 
 .Logo {
@@ -62,4 +52,4 @@
 .secList li {
   font-size: 0.8rem;
   padding: 1em;
-} */
+} 

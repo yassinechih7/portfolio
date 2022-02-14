@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 import "../styles/normalize.css";
-import NavBar from "./components/Navbar/NavBar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/AboutMe/About";
 import MainSkillset from "./components/MainSkillset/MainSkillset";
@@ -10,11 +9,11 @@ import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
 import SepLine from "./components/SepLine/SepLine";
 
-function MyApp() {
-  return (
-    <div className="MyApp">
-      <NavBar />
-      {/* 
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
+
+ {/* <NavBar />
       <Hero />
       <SepLine width="90" />
       <About />
@@ -25,9 +24,4 @@ function MyApp() {
       <SepLine width="90" />
       <Skills />
       <ContactMe />
-      <Footer /> */}
-    </div>
-  );
-}
-
-export default MyApp;
+      <Footer />  */}

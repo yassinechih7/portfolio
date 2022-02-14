@@ -6,8 +6,8 @@ import styles from "./NavBar.module.css";
 function NavBar() {
   return (
     <div className={styles.NavBar}>
-      <div className={styles.navBarWrapper}>
-        <div className={styles.Logo}>
+
+      <div className={styles.Logo}>
           <h1>Yassine Chih</h1>
         </div>
 
@@ -48,8 +48,7 @@ function NavBar() {
             </ul>
           </div>
         </div>
-      </div>
-    </div>
+      </div> 
   );
 }
 
