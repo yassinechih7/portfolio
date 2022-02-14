@@ -8,6 +8,9 @@ Costum css
   padding: 0 2rem;
 }
 
+#__next{
+  display: flex;
+}
 
 
 /* set bg color */

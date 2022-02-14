@@ -2,11 +2,11 @@
 .About {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10vh 0vw 6vh 1vw;
+  padding: 10vh 0vw 11vh 2vw;
 }
 
 .miniTtitle {
@@ -35,6 +35,7 @@
   font-weight: normal;
   display: flex;
   width: 100%;
+  padding: 1em 1em;
 }
 
 .aboutMeText p:first-child {
