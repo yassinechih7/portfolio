@@ -10,8 +10,8 @@ function Hero() {
         <h1>Hi I’m Yassine, <br /> Full Stack Developer</h1>
       </div>
       <div className={styles.subTitle}>
-        Self-taught full stack developer that obsessed computers electronics
-        hacking and everything that requires mental effort.
+        <p>Self-taught full stack developer that obsessed computers electronics
+        hacking and everything that requires mental effort.</p>
       </div>
       <div className={styles.HeroBtn}>
       <Button text="About me"/>

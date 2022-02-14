@@ -7,7 +7,9 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-}
+  padding: 21vh 0vw 25vh 1vw;
+
+  } 
 
 .MainSkillsetCards {
   display: flex;

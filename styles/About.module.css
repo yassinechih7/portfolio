@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10vh 0vw 6vh 1vw;
 }
 
 .miniTtitle {
@@ -34,6 +33,7 @@
   font-style: normal;
   font-weight: normal;
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 

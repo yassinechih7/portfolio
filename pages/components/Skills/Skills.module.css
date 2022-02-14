@@ -4,18 +4,11 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.skillsWrapper{
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-    
-
 }
+
 
 
 
@@ -47,6 +40,6 @@
 .SkillsCards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-
+  justify-content: flex-start;
+  padding: 5em;
 }

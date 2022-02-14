@@ -25,22 +25,25 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
+
       <nav>
         <NavBar />
-
       </nav>
+
       <main className={styles.main}>
         <Hero/>
         <SepLine/>
         <About/>
+        <SepLine/>
         <MainSkillset/>
         <SomeProjects/>
         <Skills/>
-        <ContactMe/>
-        <Footer/> 
+        <ContactMe/> 
       </main>
 
-      <footer className={styles.footer}></footer>
+      <footer className={styles.footer}>
+        {/* <Footer/>  */}
+      </footer>
     </div>
   );
 }

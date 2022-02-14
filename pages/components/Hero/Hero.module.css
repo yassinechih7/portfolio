@@ -1,25 +1,27 @@
 .Hero {
   width: 100%;
-
   font-style: normal;
-
-  margin: 9vh 0;
+  padding: 10vh 0vw 6vh 3vw;
 }
 
 .mainTitle {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1em;
   width: 100%;
   margin-bottom: 20px;
   color: #ffffff;
 }
 
 .subTitle {
-  font-size: 1.1em;
+  font-size: 1em;
   color: rgba(255, 255, 255, 0.56);
   width: 60vh;
-  height: 112px;
+  height: 85px;
+}
+.subTitle p{
+  margin: 0;
 }
 
 .HeroBtn {
+  margin: 0;
 }
