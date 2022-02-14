@@ -1,5 +1,6 @@
 import React from "react";
 import Head from 'next/head';
+
 import NavBar from "./components/Navbar/NavBar";
 import Hero from './components/Hero/Hero';
 import SepLine from './components/SepLine/SepLine'
@@ -36,7 +37,7 @@ export default function Home() {
         <SomeProjects/>
         <Skills/>
         <ContactMe/>
-        <Footer/>
+        <Footer/> 
       </main>
 
       <footer className={styles.footer}></footer>
