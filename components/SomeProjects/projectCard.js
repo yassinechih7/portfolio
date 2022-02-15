@@ -14,11 +14,11 @@ function ProjectCard(props) {
   const source = props.source;
 
   return (
-    <div className={styles.projectCard}>
+    <div className={styles.ProjectCard}>
       <div className={styles.cardTitle}>{title}</div>
 
       <div className={styles.contentWrapper}>
-        <div className={styles.projectCardImg}>
+        <div className={styles.ProjectCardImg}>
           <Image src={icon} alt="fb" width={264} height={150} />
         </div>
         <div className={styles.futuresList}>
