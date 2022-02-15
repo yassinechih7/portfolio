@@ -6,13 +6,18 @@ import Button from "../Button/Button";
 function ContactMe() {
   const { register, handleSubmit } = useForm();
   const [result, setResult] = useState("");
+  const onSubmit = (data) => console.log(data);
   return (
     <div className={styles.ContactMe}>
       <div className={styles.contactMeWrapper}>
         <div className={styles.contactMeTitle}>
           <h2>Contact Me</h2>
         </div>
-        <form action="" className={styles.ContactMeForm}>
+        <form
+          action=""
+          className={styles.ContactMeForm}
+          onSubmit={handleSubmit(onSubmit)}
+        >
           <div className={styles.firstName}>
             <label htmlFor="firstName">Your name</label>
             <input
@@ -28,6 +33,7 @@ function ContactMe() {
               {...register("emailaddr")}
               placeholder="john@gmail.com"
               id="emailaddr"
+              type="email"
             />
           </div>
 

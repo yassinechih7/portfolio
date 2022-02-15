@@ -4,7 +4,7 @@
   font-style: normal;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 3em 0 2em;
 }
@@ -42,7 +42,7 @@
 }
 @media only screen and (min-width: 309px) and (max-width: 820px) {
   .SkillsCards {
-    width: 70vw;
+    width: 60vw;
     display: flex;
     overflow-x: scroll;
     flex-direction: row;
