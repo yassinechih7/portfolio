@@ -1,15 +1,15 @@
 import React from "react";
 import Head from "next/head";
 
-import NavBar from "./components/Navbar/NavBar";
-import Hero from "./components/Hero/Hero";
-import SepLine from "./components/SepLine/SepLine";
-import About from "./components/AboutMe/About";
-import ContactMe from "./components/ContactMe/ContactMe";
-import Footer from "./components/Footer/Footer";
-import MainSkillset from "./components/MainSkillset/MainSkillset";
-import Skills from "./components/Skills/Skills";
-import SomeProjects from "./components/SomeProjects/SomeProjects";
+import NavBar from "../components/Navbar/NavBar";
+import Hero from "../components/Hero/Hero";
+import SepLine from "../components/SepLine/SepLine";
+import About from "../components/AboutMe/About";
+import ContactMe from "../components/ContactMe/ContactMe";
+import Footer from "../components/Footer/Footer";
+import MainSkillset from "../components/MainSkillset/MainSkillset";
+import Skills from "../components/Skills/Skills";
+import SomeProjects from "../components/SomeProjects/SomeProjects";
 
 import styles from "../styles/Home.module.css";
 

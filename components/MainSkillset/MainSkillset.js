@@ -1,7 +1,9 @@
 import React from "react";
 import SkillCard from "./SkillCard";
 import styles from "./MainSkillset.module.css";
-import { lock, links, house } from "./ImgesImport";
+import lock from "../../public/lock.svg";
+import links from "../../public/links.svg";
+import house from "../../public/house.svg";
 
 function MainSkillset() {
   const MainSkillsetData = [

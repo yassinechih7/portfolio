@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import project from "../../../public/1.jpg";
+import project from "../../public/1.jpg";
 
 import styles from "./SomeProjects.module.css";
 

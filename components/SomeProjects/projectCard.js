@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./ProjectCard.module.css";
 import Button from "../Button/Button";
-import fuIcon from "../../../public/fuIcon.svg";
+import fuIcon from "../../public/fuIcon.svg";
 import Link from "next/link";
 
 function projectCard(props) {
@@ -25,7 +25,7 @@ function projectCard(props) {
           <ul>
             {fList.map((item, index) => (
               <li key={index}>
-                <img src="/fuIcon.svg" alt="" />
+                <Image src={fuIcon} alt="" />
                 {item}
               </li>
             ))}

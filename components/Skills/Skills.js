@@ -3,7 +3,10 @@ import SkillCard from "./SkillCard";
 import Image from "next/image";
 
 import styles from "./Skills.module.css";
-import { penwb, loopwb, lockwb, truckwb } from "./ImgesImport";
+import penwb from "../../public/penwb.svg";
+import loopwb from "../../public/loopwb.svg";
+import lockwb from "../../public/lockwb.svg";
+import truckwb from "../../public/truckwb.svg";
 
 function Skills() {
   const SkillsData = [

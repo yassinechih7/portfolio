@@ -14,22 +14,22 @@ function NavBar() {
         <div className={styles.mainList}>
           <ul>
             <li>
-              <Link href="/">
+              <Link href="#hashid">
                 <a>About me</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="#hashid">
                 <a>Skillset</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="#hashid">
                 <a>Technologies</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="#hashid">
                 <a>Projects</a>
               </Link>
             </li>
@@ -48,14 +48,14 @@ function NavBar() {
         </div>
       </div>
 
-      <div class={styles.hamburgerMenu}>
-        <input class={styles.menuToggle} type="checkbox" />
-        <label class={styles.menuBtn} for="menu__toggle">
+      <div className={styles.hamburgerMenu}>
+        <input className={styles.menuToggle} type="checkbox" />
+        <label className={styles.menuBtn} htmlFor="menu__toggle">
           <span></span>
         </label>
         <ul className={styles.menuBox}>
           <li>
-            <a class={styles.menuItem} href="#">
+            <a className={styles.menuItem} href="#">
               Home
             </a>
           </li>
