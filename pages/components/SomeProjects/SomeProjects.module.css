@@ -3,16 +3,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5vh 0;
 }
 
 .SomeProjects {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .someProjectsWrapper {
+  width: 86%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +35,8 @@
   color: rgba(255, 255, 255, 0.56);
 }
 
-.SomeProjectsCards {
+.TitlesWrapper {
+  width: 100%;
 }
 
 .mainTitle {
@@ -67,4 +67,18 @@
   height: 1px;
   width: 99%;
   background: rgba(255, 255, 255, 0.12);
+}
+
+@media only screen and (min-width: 369px) and (max-width: 1281px) {
+  .someProjectsWrapper {
+    align-items: flex-start;
+  }
+  .firstSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .mainTitle {
+    width: 100%;
+  }
 }

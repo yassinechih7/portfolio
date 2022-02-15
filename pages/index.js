@@ -36,6 +36,7 @@ export default function Home() {
         <About />
         <SepLine />
         <MainSkillset />
+        <SepLine />
         <SomeProjects />
         <Skills />
         <ContactMe />

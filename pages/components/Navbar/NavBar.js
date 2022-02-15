@@ -47,6 +47,20 @@ function NavBar() {
           </ul>
         </div>
       </div>
+
+      <div class={styles.hamburgerMenu}>
+        <input class={styles.menuToggle} type="checkbox" />
+        <label class={styles.menuBtn} for="menu__toggle">
+          <span></span>
+        </label>
+        <ul className={styles.menuBox}>
+          <li>
+            <a class={styles.menuItem} href="#">
+              Home
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

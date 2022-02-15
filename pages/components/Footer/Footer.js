@@ -7,8 +7,7 @@ function Footer() {
   return (
     <div className={styles.Footer}>
       <div className={styles.rightsText}>
-        {" "}
-        <p>© 2022 Yassine Chih</p>{" "}
+        <p>© 2022 Yassine Chih</p>
       </div>
       <div className={styles.socialMedia}>
         <ul>

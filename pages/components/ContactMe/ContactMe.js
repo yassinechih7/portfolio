@@ -59,7 +59,6 @@ function ContactMe() {
               id="message"
             ></textarea>
           </div>
-          <p>{result}</p>
           <div className="contactMeSubmitButton">
             <Button type="submit" text="Submit" />
           </div>
