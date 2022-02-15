@@ -53,7 +53,7 @@ function SomeProjects() {
         </div>
         <div className={styles.SomeProjectsCards}>
           {SomeProjectsData.map((e, eIndex) =>
-            isTail(eIndex, SomeProjectsData)? (
+            isTail(eIndex, SomeProjectsData) ? (
               <ProjectCard
                 key={eIndex}
                 title={e[0]}
@@ -73,7 +73,7 @@ function SomeProjects() {
                   demo={e[4]}
                   source={e[5]}
                 />
-                <hr className={styles.splitLine}/>
+                <hr className={styles.splitLine} />
               </div>
             )
           )}

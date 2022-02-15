@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
-import styles from './About.module.css';
+import styles from "./About.module.css";
 
 function About() {
   const paragraphes = [
@@ -19,29 +19,25 @@ function About() {
     view of your app wish makes it easy for maintenance and scaling all of
     that’s brought the need for system design and design pattarns for
     better quality products that’s can scale and alow mulltiple poeple to
-    works on.`
-  ]
+    works on.`,
+  ];
   return (
     <div className={styles.About}>
       <div className={styles.miniTtitle}>about me</div>
       <div className={styles.bigTitle}>What makes me different</div>
 
       <div className={styles.aboutMeText}>
-
         <div className={styles.p1}>
           <p>{paragraphes[0]}</p>
-          
         </div>
 
         <div className={styles.p2}>
-        <p>{paragraphes[1]}</p>
+          <p>{paragraphes[1]}</p>
         </div>
-
-
       </div>
 
       <div className={styles.contactMeBtn}>
-          <Button text={"ContactMe"}/>
+        <Button text={"ContactMe"} />
       </div>
     </div>
   );

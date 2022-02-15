@@ -1,32 +1,27 @@
-  
-
-.Footer{
+.Footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 24px;
-  
 }
 
-.socialMedia ul{
+.socialMedia ul {
   display: flex;
   align-items: center;
   list-style: none;
-
 }
-.socialMedia ul li{
+.socialMedia ul li {
   height: 24px;
   width: 24px;
   margin-left: 20px;
 }
-.rightsText{
-  font-family: 'Poppins', sans-serif;
- 
+.rightsText {
+  font-family: "Poppins", sans-serif;
+
   font-size: 0.9rem;
-  
+
   font-size: 0.88rem;
-  
+
   line-height: 180%;
   color: rgba(255, 255, 255, 0.56);
-
 }

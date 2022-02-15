@@ -1,11 +1,9 @@
-  
 .projectCard {
   display: flex;
   flex-direction: column;
-
 }
 .cardTitle {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.4rem;
@@ -21,12 +19,11 @@
   overflow: hidden;
   cursor: pointer;
   border-radius: 12px;
-
 }
 
 .futuresList ul {
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.85rem;
@@ -35,25 +32,24 @@
   color: #ffffff;
 }
 
-.futuresList ul li{
+.futuresList ul li {
   display: flex;
 }
 
-.futuresList ul li img{
+.futuresList ul li img {
   margin-right: 0.5em;
 }
 
 .cardDescription {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   padding: 0 1em 0 1rem;
   font-size: 0.9rem;
-  
-  font-size: 0.96rem;
-  
-  line-height: 180%;
 
+  font-size: 0.96rem;
+
+  line-height: 180%;
 
   color: rgba(255, 255, 255, 0.56);
 }

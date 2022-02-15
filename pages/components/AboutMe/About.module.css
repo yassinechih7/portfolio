@@ -1,6 +1,5 @@
-  
 .About {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
 
   display: flex;
@@ -19,10 +18,10 @@
   text-transform: uppercase;
 }
 .bigTitle {
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: left;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2rem;
@@ -30,7 +29,7 @@
 }
 
 .aboutMeText {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   display: flex;
@@ -40,11 +39,9 @@
 
 .aboutMeText p:first-child {
   padding-right: 1em;
-
 }
 
 .p1 {
-
   text-align: left;
   color: rgba(255, 255, 255, 0.72);
   font-size: 0.95rem;
@@ -52,7 +49,6 @@
   line-height: 180%;
 }
 .p2 {
-
   text-align: left;
   color: rgba(255, 255, 255, 0.72);
   font-size: 0.95rem;
@@ -61,5 +57,5 @@
 }
 
 .contactMeBtn {
-  width: 100%;  
+  width: 100%;
 }

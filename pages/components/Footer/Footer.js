@@ -1,16 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import styles from './Footer.module.css';
-import {
-  fb, ig, twitter, github
-} from './ImgesImport';
-
-
+import styles from "./Footer.module.css";
+import { fb, ig, twitter, github } from "./ImgesImport";
 
 function Footer() {
   return (
-    <div className={styles.Footer} >
-      <div className={styles.rightsText}> <p>© 2022 Yassine Chih</p> </div>
+    <div className={styles.Footer}>
+      <div className={styles.rightsText}>
+        {" "}
+        <p>© 2022 Yassine Chih</p>{" "}
+      </div>
       <div className={styles.socialMedia}>
         <ul>
           <li>

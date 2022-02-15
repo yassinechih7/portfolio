@@ -1,26 +1,21 @@
-  
+.SomeProjects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh 0;
+}
 
 .SomeProjects {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5vh 0;
-}
-
-.SomeProjects{
   width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .someProjectsWrapper {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-      
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .firstSection {
@@ -30,24 +25,22 @@
 
 .projectsDescription {
   width: auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
- 
+
   font-size: 0.9rem;
-  
+
   font-size: 1rem;
-  
+
   line-height: 180%;
   color: rgba(255, 255, 255, 0.56);
-
 }
 
-.SomeProjectsCards{
-
+.SomeProjectsCards {
 }
 
 .mainTitle {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2rem;
@@ -57,19 +50,19 @@
 }
 
 .secondeTitle {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
- 
+
   font-size: 0.9rem;
-  
+
   font-size: 0.99rem;
-  
+
   line-height: 140%;
   color: #6068db;
 }
 
-.splitLine{
+.splitLine {
   border: none;
   height: 1px;
   width: 99%;

@@ -1,17 +1,17 @@
 import React from "react";
-import Head from 'next/head';
+import Head from "next/head";
 
 import NavBar from "./components/Navbar/NavBar";
-import Hero from './components/Hero/Hero';
-import SepLine from './components/SepLine/SepLine'
-import About from './components/AboutMe/About'
-import ContactMe from './components/ContactMe/ContactMe'
-import Footer from './components/Footer/Footer'
-import MainSkillset from './components/MainSkillset/MainSkillset'
-import Skills from './components/Skills/Skills'
-import SomeProjects from './components/SomeProjects/SomeProjects'
+import Hero from "./components/Hero/Hero";
+import SepLine from "./components/SepLine/SepLine";
+import About from "./components/AboutMe/About";
+import ContactMe from "./components/ContactMe/ContactMe";
+import Footer from "./components/Footer/Footer";
+import MainSkillset from "./components/MainSkillset/MainSkillset";
+import Skills from "./components/Skills/Skills";
+import SomeProjects from "./components/SomeProjects/SomeProjects";
 
-import styles from '../styles/Home.module.css'
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -31,18 +31,18 @@ export default function Home() {
       </nav>
 
       <main className={styles.main}>
-        <Hero/>
-        <SepLine/>
-        <About/>
-        <SepLine/>
-        <MainSkillset/>
-        <SomeProjects/>
-        <Skills/>
-        <ContactMe/> 
+        <Hero />
+        <SepLine />
+        <About />
+        <SepLine />
+        <MainSkillset />
+        <SomeProjects />
+        <Skills />
+        <ContactMe />
       </main>
 
       <footer className={styles.footer}>
-        <Footer/> 
+        <Footer />
       </footer>
     </div>
   );

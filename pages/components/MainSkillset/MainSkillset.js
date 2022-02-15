@@ -24,8 +24,6 @@ function MainSkillset() {
 
   return (
     <div className={styles.MainSkillset}>
-
-    
       <div className={styles.mainTitle}>
         <h2>Main Skillset</h2>
       </div>
@@ -34,9 +32,9 @@ function MainSkillset() {
       </div>
 
       <div className={styles.MainSkillsetCards}>
-      {MainSkillsetData.map((e, eIndex) => (
-        <SkillCard key={eIndex} icon={e[0]} title={e[1]} text={e[2]} />
-      ))}
+        {MainSkillsetData.map((e, eIndex) => (
+          <SkillCard key={eIndex} icon={e[0]} title={e[1]} text={e[2]} />
+        ))}
       </div>
     </div>
   );
