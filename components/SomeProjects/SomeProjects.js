@@ -38,7 +38,7 @@ function SomeProjects() {
   };
 
   return (
-    <div className={styles.SomeProjects}>
+    <div className={styles.SomeProjects} id="projects">
       <div className={styles.someProjectsWrapper}>
         <div className={styles.firstSection}>
           <div className={styles.TitlesWrapper}>

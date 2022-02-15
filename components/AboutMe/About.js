@@ -22,7 +22,7 @@ function About() {
     works on.`,
   ];
   return (
-    <div className={styles.About}>
+    <div className={styles.About} id="about">
       <div className={styles.miniTtitle}>about me</div>
       <div className={styles.bigTitle}>What makes me different</div>
 

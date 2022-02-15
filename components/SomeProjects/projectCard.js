@@ -36,13 +36,13 @@ function projectCard(props) {
 
         <div className={styles.buttonWrapper}>
           <div className={styles.demoButton}>
-            <Link href={demo}>
+            <Link href={demo} passHref>
               <Button text="Live demo" />
             </Link>
           </div>
 
           <div className={styles.sourceButton}>
-            <Link href={source}>
+            <Link href={source} passHref>
               <Button text="Source code" />
             </Link>
           </div>

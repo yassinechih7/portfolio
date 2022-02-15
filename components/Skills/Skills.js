@@ -52,7 +52,7 @@ function Skills() {
     ],
   ];
   return (
-    <div className={styles.Skills}>
+    <div className={styles.Skills} id="projects">
       <div className={styles.minTitle}>My Skills</div>
       <div className={styles.mainTitle}>
         Creativity is nothing but the way to

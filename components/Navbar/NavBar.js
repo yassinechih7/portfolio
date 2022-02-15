@@ -14,22 +14,22 @@ function NavBar() {
         <div className={styles.mainList}>
           <ul>
             <li>
-              <Link href="#hashid">
+              <Link href="#about" passHref>
                 <a>About me</a>
               </Link>
             </li>
             <li>
-              <Link href="#hashid">
+              <Link href="#skillset" passHref>
                 <a>Skillset</a>
               </Link>
             </li>
             <li>
-              <Link href="#hashid">
+              <Link href="#technologies" passHref>
                 <a>Technologies</a>
               </Link>
             </li>
             <li>
-              <Link href="#hashid">
+              <Link href="#projects" passHref>
                 <a>Projects</a>
               </Link>
             </li>
@@ -38,9 +38,13 @@ function NavBar() {
 
         <div className={styles.secList}>
           <ul>
-            <li>Portfolio</li>
             <li>
-              <Link href="#hashid">
+              <Link href="#projects" passHref>
+                <a>Portfolio</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#contactme" passHref>
                 <Button text="contact me" />
               </Link>
             </li>

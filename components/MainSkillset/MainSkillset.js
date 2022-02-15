@@ -25,7 +25,7 @@ function MainSkillset() {
   ];
 
   return (
-    <div className={styles.MainSkillset}>
+    <div className={styles.MainSkillset} id="skillset">
       <div className={styles.mainTitle}>
         <h2>Main Skillset</h2>
       </div>
