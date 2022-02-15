@@ -5,7 +5,7 @@ import Button from "../Button/Button";
 import fuIcon from "../../public/fuIcon.svg";
 import Link from "next/link";
 
-function projectCard(props) {
+function ProjectCard(props) {
   const title = props.title;
   const icon = props.icon;
   const fList = props.fList;
@@ -52,4 +52,4 @@ function projectCard(props) {
   );
 }
 
-export default projectCard;
+export default ProjectCard;
